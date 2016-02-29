@@ -1,0 +1,211 @@
+
+html,body,h1,h5,div,p{
+	padding:0;
+	margin:0;
+}
+
+.mainContent{
+	background-color:#9A492C;
+	width: 1024px;
+	margin: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.content{
+	width: 875px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.row1{
+	width: 865px;
+	height:250px;
+}
+li{
+	list-style-type: none;
+}
+
+.Col1{
+	width:30%;
+	height: 250px;
+	float: left;
+	background-color:#C08365;
+}
+.block1{
+	border:1px solid #9A492C;
+	padding:5px 0px 9px 30px ;
+	height:60px;
+}
+.MarkShale{
+	color: white;
+	font-size: 20px;
+}
+.chicago{
+	padding-left: 50px;
+	color: white;
+	font-size: 12px;
+}
+.block2{
+	border:2px solid #9A492C;
+	color: white;
+}
+.block3{
+	border-top: 1px solid  #9A492C;
+}
+
+.stars{
+	/*border:1px solid #9A492C;*/
+	padding-top: 16px;
+	width: 50%;
+	float: left;
+	height:38px;
+	text-align: center;
+}
+.date{
+	/*border:1px solid #9A492C;*/
+	border-left:3px solid #9A492C; 
+	width:48.44%;
+	padding-top: 16px;
+	float: left;
+	text-align: center;
+	color: white;
+	height:30px;
+}
+
+
+.Col2{
+	padding:0px 10px;
+	width: 67%;
+	height: 250px;
+	float: left;
+	background-color:#9A492C;
+}
+.img1{
+	background-image: url(600x400.jpg);
+	width: 102.5%;
+	height: 250px;
+	float: left;
+}
+.mainText{
+    position: absolute;
+    padding-top:35px ;
+    color: white;
+    font-size: 35px;
+    font-family: cursive;
+    
+
+}
+.SubText1{
+	/*position: absolute;
+	padding-left: 260px;
+    color: white;
+    padding-top: 186px;*/
+    font-family: cursive;
+     color: blue;
+     width:315px;
+    display: inline-block;
+	vertical-align: top;
+}
+.SubText2{
+	position: absolute;
+	/*padding-left: 733px;*/
+    color: blue;
+    display: inline-block;
+   /* padding-top: 186px;*/
+    font-family: cursive;
+}
+.row2{
+	background-color: white;
+	margin-top: 5px;
+	height:233px;
+	width: 865px;
+}
+.fText{
+	text-align: center;
+	font:bold;
+}
+.fashion1{
+	width: 280px;
+	height: 187px;
+	float: left;
+	padding-right: 6px;
+	padding-left: 6px;
+	display: block;
+}
+.personal1{
+	width: 280px;
+	height: 187px;
+	padding-right: 6px;
+	float: left;
+}
+.featured1{
+	width: 280px;
+	height: 187px;
+	padding-right: 6px;
+	float: left;
+}
+.title{
+    height: 20px;
+    width: 865px;
+    padding: 10px 0px 10px 10px;
+    /*padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;*/
+    font-family: fantasy;
+}
+.t1{
+	float: left;
+	width: 280px;
+	text-align: center;
+}
+.t2{
+	float: left;
+	width: 280px;
+	text-align: center;
+}
+.t3{
+	float: left;
+	width: 280px;
+	text-align: center;
+}
+
+.textBig {
+	font-size: 30px;
+}
+.row3{
+	margin-top: 10px;
+	width: 873px;
+	background-color: #9A492C;
+    margin: auto;
+}
+.events,.news,.about{
+	background-color: #9A492C;
+	display:block;
+	float: left;
+	width: 285px;
+	padding-right: 3px;
+}
+.eventName{
+	margin-top: 10px;
+	font-size: 20px;
+    font-family: cursive;
+    padding: 4px;
+    color:white;
+}
+.eventSubHeading{
+	font-size: 15px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.eventText{
+	font-family:" Times new Romun";
+	padding:5px;
+}
+.footer{
+	background-color: #C08365;
+	height:15px;
+	margin-top: 208px;
+    padding: 10px;
+    padding-left: 20px;
+}
