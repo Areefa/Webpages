@@ -1,0 +1,58 @@
+<!doctype html-5>
+<html>
+<head>
+	<title>Application Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css"/>
+</head>
+
+<body>
+	<div class="con">
+	<form action="save.php" method="POST">
+	<!--<fieldset    style="width: 550px; ">-->
+
+		
+		<label>User Name<sup class="manditory">*</sup> <input type="text" name="username"  placeholder="Enter User Name" required title="Enter Charters only Ex:Areefa Banu"></label><br/><br>
+		<label>E-mail<sup class="manditory">*</sup> <input type="email" name="username"  placeholder="eg:abc@gmail.com" required></label><br/><br>
+		<label>Password<sup class="manditory">*</sup> <input type="password" name="password"  placeholder="Enter Password" required></label><br><br>
+		<label>Select Gender<sup class="manditory">*</sup>  : Male<input type="radio" name="r1" value="male">
+							Female<input type="radio" name="r1" value="female">
+
+		</label><br><br>
+		<label>Year of Passing <input type="date"> </label><br><br>
+		<label>Skills<sup class="manditory">*</sup>   :C/C++<input type="checkbox" name="r2" value="c">
+							JAVA<input type="checkbox" name="r2" value="java" >
+							J2EE<input type="checkbox" name="r2" value="j2ee">
+							SQL<input type="checkbox" name="r2" value="sql">
+							HTML<input type="checkbox" name="r2" value="html">
+							CSS<input type="checkbox" name="r2" value="css">
+							JAVASCRIPT<input type="checkbox" name="r2" value="javascript">
+		</label><br><br>
+		<label>Select Exprience In Months<sup class="manditory">*</sup> <select name="exp">
+								<option>---Select---</option>
+								<option>0</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								
+							 </select>
+		</label><br><br>
+		<lable>Address  <textarea row="10" cols="50"></textarea></lable><br><br>
+		<label>Upload File<sup class="manditory">*</sup><input type="file"></label><br><br>
+		<label><input type="submit" value="send"></label>
+		<label><input type="reset" value="reset"></label>
+
+	<!--</fieldset>	-->
+	</form>
+	<!--
+	<audio src="E:\desktop\shahista\songs\07 - Aahatein (Remix) (www.SongsLover.com).mp3 " controls></audio><br>
+	<video src="D:\Movies\The Lego Movie (2014) [1080p]\The.Lego.Movie.2014.1080p.BluRay.x264.YIFY.mp4" controls  width="300px" height="300px"></video> -->
+	</div>
+</body>
+</html>
+	
